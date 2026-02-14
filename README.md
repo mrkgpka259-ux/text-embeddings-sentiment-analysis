@@ -1,3 +1,4 @@
+# Text Embeddings-Based Sentiment Classification
 This project implements an embedding-based sentiment analysis system using a Twitter dataset containing approximately 27,000 tweets. The objective is to classify tweets into three categories: Positive, Neutral, and Negative using transformer-based text representations.
 
 Rather than relying on traditional methods such as TF-IDF or Bag-of-Words, this project utilizes Sentence-BERT (all-MiniLM-L6-v2) to generate dense semantic embeddings for each tweet. These embeddings capture contextual meaning and relationships between words, enabling more accurate sentiment classification, especially for short and informal social media text.
